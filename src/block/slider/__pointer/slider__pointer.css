@@ -1,0 +1,7 @@
+.slider__pointer {
+    /* display: none; */
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    top: -30px;
+}

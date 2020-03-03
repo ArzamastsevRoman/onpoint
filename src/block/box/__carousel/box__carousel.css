@@ -1,0 +1,9 @@
+.box__carousel {
+    width: 9999px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-top 500ms;
+    font-size: 0;
+}

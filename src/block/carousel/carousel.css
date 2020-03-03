@@ -1,0 +1,20 @@
+@import url(./__title/carousel__title.css);
+@import url(./__image/carousel__image.css);
+@import url(./__page/carousel__page.css);
+@import url(./__subtitle/carousel__subtitle.css);
+@import url(./__image-elipsesHb/carousel__image-elipsesHb.css);
+@import url(./__image-elipsesCC/carousel__image-elipsesCC.css);
+@import url(./__image-elipsesGip/carousel__image-elipsesHbGip.css);
+@import url(./__image-elipsesSD/carousel__image-elipsesSD.css);
+@import url(./__page-content/carousel__page-content.css);
+
+
+.carousel {
+    width: 1024px;
+    height: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-top 500ms;
+    font-size: 0;
+}

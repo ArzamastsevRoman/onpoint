@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test onepoint</title>
+    <meta name="author" content="Арзамасцев Роман">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+    <div class="container">
+        <div class="arrow arrow_top">
+            <img src="<%=require('./images/ShapeUp.png')%>" alt="" class="arrow__image">
+            <p class="arrow__content">Листайте вверх</p>
+        </div>
+        <div class="arrow arrow_bottom">
+            <p class="arrow__content">Листайте вниз</p>
+            <img src="<%=require('./images/Shape.png')%>" alt="" class="arrow__image">
+        </div>
+        <div class="content">
+            <ul class="carousel">
+                <li class="carousel__page">
+                    <img src="<%=require('./images/1.jpg')%>" alt="" class="carousel__image">
+                    <h2 class="carousel__title">Всегда ли цели терапии СД2 на поверхности?</h2>
+                    <h3 class="carousel__subtitle carousel__subtitle_1">Цель по HbA1c</h3>
+                    <img src="<%=require('./images/ElipsesHb.png')%>" alt="" class="carousel__image-elipsesHb">
+                    <h3 class="carousel__subtitle carousel__subtitle_2">Гипогликемия</h3>
+                    <img src="<%=require('./images/ElipsesGip.png')%>" alt="" class="carousel__image-elipsesGip">
+                    <h3 class="carousel__subtitle carousel__subtitle_3">CC риски</h3>
+                    <img src="<%=require('./images/ElipsesCC.png')%>" alt="" class="carousel__image-elipsesCC">
+                    <h3 class="carousel__subtitle carousel__subtitle_4">Осложнения СД</h3>
+                    <img src="<%=require('./images/Elipses1.png')%>" alt="" class="carousel__image-elipsesSD">
+                </li>
+                <li class="carousel__page">
+                    <img src="<%=require('./images/2.jpg')%>" alt="" class="carousel__image">
+                    <h2 class="carousel__title carousel__title_page2">Основа терапии – патогенез СД2</h2>
+                </li>
+                <li class="carousel__page">
+                    <!-- <div class="box">
+                        <ul class="box__carousel">
+                            <li class="box__carousel-page">
+                                <img src="<%=require('./images/page3-1.png')%>" alt="" class="box__carousel-image">
+                            </li>
+                            <li class="box__carousel-page">
+                                <img src="<%=require('./images/page3-2.png')%>" alt="" class="box__carousel-image">
+                            </li>
+                            <li class="box__carousel-page">
+                                <img src="<%=require('./images/page3-3.png')%>" alt="" class="box__carousel-image">
+                            </li>
+                        </ul>
+                    </div> -->
+                    <img src="<%=require('./images/page3-3.png')%>" alt="" class='carousel__page-content'>
+                    <div class="slider">
+                        <div class="slider__line">
+                            <div class="slider__point slider__point_1"></div>
+                            <div class="slider__point slider__point_2"></div>
+                            <div class="slider__point slider__point_3">
+                                <img src="<%=require('./images/Polygon.png')%>" alt="point" class="slider__pointer">
+                            </div>
+                        </div>
+                        <div class="slider__content">
+                            <p class="slider__text">1988</p>
+                            <p class="slider__text">2009</p>
+                            <p class="slider__text">2016</p>
+                        </div>    
+                    </div>
+                    <!-- <img src="<%=require('./images/3.jpg')%>" alt="" class="carousel__image"> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src = "<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

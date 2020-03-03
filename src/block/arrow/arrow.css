@@ -1,0 +1,12 @@
+@import url(./_bottom/arrow_bottom.css);
+@import url(./_top/arrow_top.css);
+@import url(./__content/arrow__content.css);
+@import url(./__image/arrow__image.css);
+
+.arrow {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

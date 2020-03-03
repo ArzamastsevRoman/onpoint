@@ -1,0 +1,15 @@
+@import url(./__line/slider__line.css);
+@import url(./__point/slider__point.css);
+@import url(./__pointer/slider__pointer.css);
+@import url(./__content/slider__content.css);
+@import url(./__text/slider__text.css);
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

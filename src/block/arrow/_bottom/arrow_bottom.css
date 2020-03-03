@@ -1,0 +1,10 @@
+.arrow.arrow_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.arrow.arrow_bottom:hover {
+    background-image: radial-gradient(at 50% 140%, rgba(247, 139, 33, 1) 30%, rgba(48, 126, 208, .1) 47%);
+}

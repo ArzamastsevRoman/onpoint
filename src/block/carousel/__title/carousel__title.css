@@ -1,0 +1,12 @@
+@import url(./_page2/carousel__title_page2.css);
+
+.carousel__title {
+    font-size: 47px;
+    line-height: 1.2;
+    font-family: gothamPro;
+    color: rgb(13, 49, 156);
+    position: absolute;
+    top: 100px;
+    left: 148px;
+    z-index: 1;
+}
