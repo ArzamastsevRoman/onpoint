@@ -1,4 +1,4 @@
-# [Test App](https://arzamastsevroman.github.io/Test-app)
+# [Test onpoint](https://arzamastsevroman.github.io/onpoint)
 ## v0.0.1
 ### Тестовый проект
 ### HTML, CSS, JS, Webpack, GIT
